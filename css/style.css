@@ -17,11 +17,11 @@ body{
     flex-wrap: wrap;
 }
 .header_custom_width .logo {
-    max-width: 15%;
-    width: 15%;
+    max-width: 10%;
+    width: 10%;
 }
 .header_custom_width .text {
-    max-width: calc(100% - 15%);
+    max-width: calc(100% - 10%);
     width: 100%;
 }
 .custom-width{
@@ -46,6 +46,7 @@ body{
     padding: 50px 0 ;
 }
 .top_thanks .text h1 {
+    padding-right: 200px;
     color: #fff;
     font-weight: 600;
     font-family: "Fira Sans";
