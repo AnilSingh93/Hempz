@@ -10,6 +10,20 @@
 body{
 	font-family: 'Fira Sans', sans-serif;
 }
+.header_custom_width {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header_custom_width .logo {
+    max-width: 15%;
+    width: 15%;
+}
+.header_custom_width .text {
+    max-width: calc(100% - 15%);
+    width: 100%;
+}
 .custom-width{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -29,7 +43,7 @@ body{
 	width: 100%;	
 }
 .top_thanks .text {
-    padding: 50px 0 100px;
+    padding: 50px 0 80px;
 }
 .top_thanks .text h1 {
     color: #fff;
