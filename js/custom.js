@@ -2,6 +2,7 @@ var $form = $(".sign_up .signup_column form")
 $(".sign_left form button").on("click", function (e) {
     var toReturn = true;
    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
      $("select, input[type='text']", $form).each(function(){
         if($(this).val() == ""){
             $(this).next().addClass("err_msgs");
