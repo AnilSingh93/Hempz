@@ -9,6 +9,21 @@
 body{
 	font-family: 'Fira Sans', sans-serif;
 }
+.thanks_custom-width {
+    max-width: 100%;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thanks_custom-width .logo {
+    max-width: 15%;
+    width: 100%;
+}
+
+.thanks_custom-width .text {
+    max-width: calc(100% - 15%);
+    width: 100%;
+}
 .custom-width{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -28,7 +43,7 @@ body{
 	width: 100%;	
 }
 .top_thanks .text {
-    padding: 50px 0 100px;
+    padding: 50px 0 80px;
 }
 .top_thanks .text h1 {
     color: #fff;
