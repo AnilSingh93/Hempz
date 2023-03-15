@@ -111,6 +111,7 @@ body{
 	position: relative;
 }
 .sign_left form input {
+    width: 100%;
     padding: 7px;
     border: 1px solid #0000003d;
     background-color: #fff;
