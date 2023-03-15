@@ -242,7 +242,7 @@ p.error svg {
 }
 @media (max-width: 767px){
 	.top_thanks .text {
-		padding: 32px 25px;
+		padding: 32px 0;
 	}
 	.sign_left form .form_half_col .for_col,
 	.signup_column {
@@ -266,6 +266,20 @@ p.error svg {
     max-width: 33%;
 	width: 100%;
 	margin-bottom: 15px;
+}
+.header_custom_width .text,
+.header_custom_width .logo {
+    max-width: 100%;
+    width: 100%;
+}
+.header_custom_width {
+    padding: 0 25px;
+}
+.header_custom_width .logo {
+    text-align: center;
+}
+.top_thanks .logo a {
+    padding-top: 32px;
 }
 
 }
