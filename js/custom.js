@@ -43,5 +43,4 @@ $(".sign_left form button").on("click", function (e) {
   
  return toReturn = true;
   
-  
 });
