@@ -308,6 +308,10 @@ p.success.yes {
 @media (max-width: 400px){
     .sign_left form .checkbox input {
        margin-right: 14px;
-        margin-top: 4px;
+     }
+
+    .sign_left form .checkbox span {
+       line-height: 1.65;
+       text-align: center;
     }
 }
